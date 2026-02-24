@@ -5,7 +5,7 @@ const COURSES = [
   {
     id: 'alturas', title: 'Trabajo en Alturas', hours: 8, icon: '🏗️', category: 'Seguridad Industrial',
     color: 'linear-gradient(135deg, #0066cc, #003366)',
-    image: 'https://images.unsplash.com/photo-1508847154043-be5407fcaa5a?q=80&w=2074&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1574635648815-e425c64a702f?q=80&w=2070&auto=format&fit=crop',
     desc: 'Capacitación en prevención de caídas, uso de equipos de protección y normativa vigente para trabajos en alturas superiores a 1.5 metros.',
     modules: [
       {
@@ -187,7 +187,7 @@ const COURSES = [
   {
     id: 'ergonomia', title: 'Ergonomía Laboral', hours: 4, icon: '🪑', category: 'Salud Ocupacional',
     color: 'linear-gradient(135deg, #0891b2, #164e63)',
-    image: 'https://images.unsplash.com/photo-1590650153855-d9e808231d41?q=80&w=2070&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?q=80&w=2069&auto=format&fit=crop',
     desc: 'Prevención de desórdenes musculoesqueléticos, diseño ergonómico del puesto de trabajo y pausas activas.',
     modules: [
       {
