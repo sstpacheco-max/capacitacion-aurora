@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual: Almacenamiento Seguro de Químicos</title>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #ecfdf5;
+            padding: 40px;
+            color: #064e3b;
+        }
+
+        .manual {
+            background: white;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #065f46;
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 4px solid #10b981;
+            padding-bottom: 20px;
+        }
+
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 30px;
+        }
+
+        .table th,
+        .table td {
+            border: 1px solid #d1fae5;
+            padding: 15px;
+            text-align: left;
+        }
+
+        .table th {
+            background: #10b981;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="manual">
+        <h1>Almacenamiento Seguro de Sustancias Químicas</h1>
+        <p>Directrices técnicas basadas en <strong>Resolución 773 de 2021</strong> y el Sistema Globalmente Armonizado.
+        </p>
+
+        <h2>Matriz de Compatibilidad</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Clase de Sustancia</th>
+                    <th>Inflamables</th>
+                    <th>Oxidantes</th>
+                    <th>Corrosivos (Ácidos)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Inflamables</strong></td>
+                    <td style="background:#d1fae5">Compatible</td>
+                    <td style="background:#fee2e2">Prohibido</td>
+                    <td style="background:#fef3c7">Separado</td>
+                </tr>
+                <tr>
+                    <td><strong>Oxidantes</strong></td>
+                    <td style="background:#fee2e2">Prohibido</td>
+                    <td style="background:#d1fae5">Compatible</td>
+                    <td style="background:#fee2e2">Prohibido</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
