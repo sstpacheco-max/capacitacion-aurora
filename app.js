@@ -430,7 +430,6 @@ function renderCourses() {
     const done = myDone.find(x => x.courseId === c.id);
     return `<div class="course-card animate-fadeInUp">
       <div class="course-card-header" style="background-image: url('${c.image}')">
-        <div class="course-card-bg">${c.icon}</div>
         <div class="course-card-badge">
           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
           ${c.hours} horas
