@@ -5,7 +5,7 @@ const COURSES = [
   {
     id: 'alturas', title: 'Trabajo en Alturas', hours: 8, icon: '🏗️', category: 'Seguridad Industrial',
     color: 'linear-gradient(135deg, #0066cc, #003366)',
-    image: 'https://images.unsplash.com/photo-1574635648815-e425c64a702f?q=80&w=2070&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1628102422204-f58448a39d88?q=80&w=2070&auto=format&fit=crop',
     desc: 'Capacitación en prevención de caídas, uso de equipos de protección y normativa vigente para trabajos en alturas superiores a 1.5 metros.',
     modules: [
       {
@@ -63,7 +63,7 @@ const COURSES = [
   {
     id: 'psicosocial', title: 'Riesgo Psicosocial', hours: 6, icon: '🧠', category: 'Salud Ocupacional',
     color: 'linear-gradient(135deg, #7c3aed, #4c1d95)',
-    image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=2070&auto=format&fit=crop',
     desc: 'Identificación del riesgo psicosocial, aplicación de la Batería del Ministerio y estrategias de intervención en el ambiente laboral.',
     modules: [
       {
@@ -105,7 +105,7 @@ const COURSES = [
   {
     id: 'auxilios', title: 'Primeros Auxilios', hours: 10, icon: '🩺', category: 'Emergencias',
     color: 'linear-gradient(135deg, #dc2626, #991b1b)',
-    image: 'https://images.unsplash.com/photo-1620912189865-1e8a33da4c59?q=80&w=2070&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1584467541268-b040f83be3fd?q=80&w=2070&auto=format&fit=crop',
     desc: 'Protocolo de atención en emergencias, RCP, manejo de heridas, fracturas y traslado de víctimas en el entorno laboral.',
     modules: [
       {
@@ -187,7 +187,7 @@ const COURSES = [
   {
     id: 'ergonomia', title: 'Ergonomía Laboral', hours: 4, icon: '🪑', category: 'Salud Ocupacional',
     color: 'linear-gradient(135deg, #0891b2, #164e63)',
-    image: 'https://images.unsplash.com/photo-1518458028434-583307216398?q=80&w=2070&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?q=80&w=2069&auto=format&fit=crop',
     desc: 'Prevención de desórdenes musculoesqueléticos, diseño ergonómico del puesto de trabajo y pausas activas.',
     modules: [
       {
