@@ -187,7 +187,7 @@ const COURSES = [
   {
     id: 'ergonomia', title: 'Ergonomía Laboral', hours: 4, icon: '🪑', category: 'Salud Ocupacional',
     color: 'linear-gradient(135deg, #0891b2, #164e63)',
-    image: 'https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?q=80&w=2069&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1518458028434-583307216398?q=80&w=2070&auto=format&fit=crop',
     desc: 'Prevención de desórdenes musculoesqueléticos, diseño ergonómico del puesto de trabajo y pausas activas.',
     modules: [
       {
