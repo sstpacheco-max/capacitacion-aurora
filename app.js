@@ -5,7 +5,7 @@ const COURSES = [
   {
     id: 'alturas', title: 'Trabajo en Alturas', hours: 8, icon: '🏗️', category: 'Seguridad Industrial',
     color: 'linear-gradient(135deg, #0066cc, #003366)',
-    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2070&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1541888946425-d81bb19480c5?q=80&w=2070&auto=format&fit=crop',
     desc: 'Capacitación en prevención de caídas, uso de equipos de protección y normativa vigente para trabajos en alturas superiores a 1.5 metros.',
     modules: [
       {
@@ -63,7 +63,7 @@ const COURSES = [
   {
     id: 'psicosocial', title: 'Riesgo Psicosocial', hours: 6, icon: '🧠', category: 'Salud Ocupacional',
     color: 'linear-gradient(135deg, #7c3aed, #4c1d95)',
-    image: 'https://images.unsplash.com/photo-1522071823991-b99c2230282c?q=80&w=2070&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=2070&auto=format&fit=crop',
     desc: 'Identificación del riesgo psicosocial, aplicación de la Batería del Ministerio y estrategias de intervención en el ambiente laboral.',
     modules: [
       {
@@ -105,7 +105,7 @@ const COURSES = [
   {
     id: 'auxilios', title: 'Primeros Auxilios', hours: 10, icon: '🩺', category: 'Emergencias',
     color: 'linear-gradient(135deg, #dc2626, #991b1b)',
-    image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=2070&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?q=80&w=2070&auto=format&fit=crop',
     desc: 'Protocolo de atención en emergencias, RCP, manejo de heridas, fracturas y traslado de víctimas en el entorno laboral.',
     modules: [
       {
@@ -146,7 +146,7 @@ const COURSES = [
   {
     id: 'quimicos', title: 'Manejo de Sustancias Químicas', hours: 6, icon: '⚗️', category: 'Higiene Industrial',
     color: 'linear-gradient(135deg, #059669, #064e3b)',
-    image: 'https://images.unsplash.com/photo-1532187863486-abf9d39d998e?q=80&w=2070&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2070&auto=format&fit=crop',
     desc: 'Sistema Globalmente Armonizado (SGA), hojas de seguridad, almacenamiento y manejo seguro de sustancias químicas peligrosas.',
     modules: [
       {
@@ -187,7 +187,7 @@ const COURSES = [
   {
     id: 'ergonomia', title: 'Ergonomía Laboral', hours: 4, icon: '🪑', category: 'Salud Ocupacional',
     color: 'linear-gradient(135deg, #0891b2, #164e63)',
-    image: 'https://images.unsplash.com/photo-1551288049-bbbda536ad0a?q=80&w=2070&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=2070&auto=format&fit=crop',
     desc: 'Prevención de desórdenes musculoesqueléticos, diseño ergonómico del puesto de trabajo y pausas activas.',
     modules: [
       {
