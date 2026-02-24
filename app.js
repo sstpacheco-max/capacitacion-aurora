@@ -213,6 +213,7 @@ const COURSES = [
   {
     id: 'accidentes', title: 'Investigación de Accidentes', hours: 8, icon: '🔍', category: 'Gestión SST',
     color: 'linear-gradient(135deg, #d97706, #78350f)',
+    image: 'https://images.unsplash.com/photo-1577412647305-991150c7d163?q=80&w=2070&auto=format&fit=crop',
     desc: 'Metodología de investigación de accidentes e incidentes laborales según la Resolución 1401 de 2007.',
     modules: [
       {
