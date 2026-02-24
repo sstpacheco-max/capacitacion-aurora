@@ -147,7 +147,7 @@ const COURSES = [
     modules: [
       {
         name: 'SGA y Hojas de Seguridad', stages: [
-          { type: 'lectura', title: 'Sistema Globalmente Armonizado', videoUrl: 'https://www.youtube.com/embed/g0wQis27j6w', content: '<h3>¿Qué es el SGA?</h3><p>El Sistema Globalmente Armonizado de Clasificación y Etiquetado de Productos Químicos (SGA/GHS) es un estándar internacional para clasificar sustancias químicas según sus peligros.</p><h3>Hoja de Datos de Seguridad (HDS)</h3><p>La HDS contiene 16 secciones obligatorias con información sobre identificación, peligros, composición, primeros auxilios, medidas contra incendios, etc.</p><ul><li>Sección 1-3: Identificación y composición</li><li>Sección 4-6: Emergencias</li><li>Sección 7-10: Manipulación y propiedades</li><li>Sección 11-16: Información toxicológica y regulatoria</li></ul>' },
+          { type: 'lectura', title: 'Sistema Globalmente Armonizado', videoUrl: 'https://www.youtube-nocookie.com/embed/6rvwx8G0yZQ', content: '<h3>¿Qué es el SGA?</h3><p>El Sistema Globalmente Armonizado de Clasificación y Etiquetado de Productos Químicos (SGA/GHS) es un estándar internacional para clasificar sustancias químicas según sus peligros.</p><h3>Hoja de Datos de Seguridad (HDS)</h3><p>La HDS contiene 16 secciones obligatorias con información sobre identificación, peligros, composición, primeros auxilios, medidas contra incendios, etc.</p><ul><li>Sección 1-3: Identificación y composición</li><li>Sección 4-6: Emergencias</li><li>Sección 7-10: Manipulación y propiedades</li><li>Sección 11-16: Información toxicológica y regulatoria</li></ul>' },
           { type: 'actividad', title: 'Lectura de HDS', items: ['Identificar los 9 pictogramas del SGA', 'Localizar información de primeros auxilios en una HDS', 'Determinar la clasificación de peligro de un producto', 'Verificar compatibilidad de almacenamiento'] },
           {
             type: 'evaluacion', title: 'Evaluación SGA', questions: [
@@ -162,7 +162,7 @@ const COURSES = [
       },
       {
         name: 'Almacenamiento y Emergencias', stages: [
-          { type: 'lectura', title: 'Almacenamiento seguro', videoUrl: 'https://www.youtube.com/embed/G6gE9uNn_cE', content: '<h3>Matriz de compatibilidad</h3><p>Las sustancias químicas deben almacenarse según su compatibilidad. Nunca almacenar ácidos junto con bases, ni oxidantes con inflamables.</p><h3>Kit de derrames</h3><p>Toda área donde se manipulen sustancias químicas debe contar con un kit de derrames que incluya material absorbente, EPP de emergencia y bolsas de disposición.</p>' },
+          { type: 'lectura', title: 'Almacenamiento seguro', videoUrl: 'https://www.youtube-nocookie.com/embed/6rvwx8G0yZQ', content: '<h3>Matriz de compatibilidad</h3><p>Las sustancias químicas deben almacenarse según su compatibilidad. Nunca almacenar ácidos junto con bases, ni oxidantes con inflamables.</p><h3>Kit de derrames</h3><p>Toda área donde se manipulen sustancias químicas debe contar con un kit de derrames que incluya material absorbente, EPP de emergencia y bolsas de disposición.</p>' },
           { type: 'actividad', title: 'Plan de emergencia química', items: ['Elaborar una matriz de compatibilidad básica', 'Diseñar el contenido de un kit de derrames', 'Describir el procedimiento ante un derrame', 'Identificar las rutas de evacuación del área'] },
           {
             type: 'evaluacion', title: 'Evaluación Final', questions: [
