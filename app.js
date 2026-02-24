@@ -5,6 +5,7 @@ const COURSES = [
   {
     id: 'alturas', title: 'Trabajo en Alturas', hours: 8, icon: '🏗️', category: 'Seguridad Industrial',
     color: 'linear-gradient(135deg, #0066cc, #003366)',
+    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2070&auto=format&fit=crop',
     desc: 'Capacitación en prevención de caídas, uso de equipos de protección y normativa vigente para trabajos en alturas superiores a 1.5 metros.',
     modules: [
       {
@@ -62,6 +63,7 @@ const COURSES = [
   {
     id: 'psicosocial', title: 'Riesgo Psicosocial', hours: 6, icon: '🧠', category: 'Salud Ocupacional',
     color: 'linear-gradient(135deg, #7c3aed, #4c1d95)',
+    image: 'https://images.unsplash.com/photo-1522071823991-b99c2230282c?q=80&w=2070&auto=format&fit=crop',
     desc: 'Identificación del riesgo psicosocial, aplicación de la Batería del Ministerio y estrategias de intervención en el ambiente laboral.',
     modules: [
       {
@@ -103,6 +105,7 @@ const COURSES = [
   {
     id: 'auxilios', title: 'Primeros Auxilios', hours: 10, icon: '🩺', category: 'Emergencias',
     color: 'linear-gradient(135deg, #dc2626, #991b1b)',
+    image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=2070&auto=format&fit=crop',
     desc: 'Protocolo de atención en emergencias, RCP, manejo de heridas, fracturas y traslado de víctimas en el entorno laboral.',
     modules: [
       {
@@ -143,6 +146,7 @@ const COURSES = [
   {
     id: 'quimicos', title: 'Manejo de Sustancias Químicas', hours: 6, icon: '⚗️', category: 'Higiene Industrial',
     color: 'linear-gradient(135deg, #059669, #064e3b)',
+    image: 'https://images.unsplash.com/photo-1532187863486-abf9d39d998e?q=80&w=2070&auto=format&fit=crop',
     desc: 'Sistema Globalmente Armonizado (SGA), hojas de seguridad, almacenamiento y manejo seguro de sustancias químicas peligrosas.',
     modules: [
       {
@@ -183,6 +187,7 @@ const COURSES = [
   {
     id: 'ergonomia', title: 'Ergonomía Laboral', hours: 4, icon: '🪑', category: 'Salud Ocupacional',
     color: 'linear-gradient(135deg, #0891b2, #164e63)',
+    image: 'https://images.unsplash.com/photo-1551288049-bbbda536ad0a?q=80&w=2070&auto=format&fit=crop',
     desc: 'Prevención de desórdenes musculoesqueléticos, diseño ergonómico del puesto de trabajo y pausas activas.',
     modules: [
       {
@@ -424,8 +429,8 @@ function renderCourses() {
   grid.innerHTML = COURSES.map(c => {
     const done = myDone.find(x => x.courseId === c.id);
     return `<div class="course-card animate-fadeInUp">
-      <div class="course-card-header">
-        <div class="course-card-bg" style="background:${c.color}">${c.icon}</div>
+      <div class="course-card-header" style="background-image: url('${c.image}')">
+        <div class="course-card-bg">${c.icon}</div>
         <div class="course-card-badge">
           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
           ${c.hours} horas
@@ -445,11 +450,13 @@ function renderCourses() {
             ${c.modules.reduce((a, m) => a + m.stages.length, 0)} etapas
           </div>
         </div>
-        ${done ? '<div class="completed-badge" style="margin-bottom:12px">✓ Completado</div>' : ''}
-        <button class="btn-course" onclick="showCourseView('${c.id}')">
-          ${done ? 'Revisar Curso' : 'Iniciar Curso'}
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
-        </button>
+        <div style="margin-top:auto">
+          ${done ? '<div class="completed-badge" style="margin-bottom:12px">✓ Completado</div>' : ''}
+          <button class="btn-course" onclick="showCourseView('${c.id}')">
+            ${done ? 'Revisar Curso' : 'Iniciar Curso'}
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </div>
       </div>
     </div>`;
   }).join('');
