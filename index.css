@@ -810,7 +810,33 @@ textarea {
   overflow: hidden;
   background-size: cover;
   background-position: center;
+  background-color: #f8fafc;
+  /* Fallback light grey */
   transition: transform 0.8s cubic-bezier(0.2, 1, 0.2, 1);
+  display: flex;
+  align-items: flex-end;
+  padding: 1.5rem;
+}
+
+/* Skeleton/Shimmer effect for loading */
+.course-card-header::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite linear;
+  z-index: 0;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+
+  100% {
+    background-position: 200% 0;
+  }
 }
 
 .course-card:hover .course-card-header {
